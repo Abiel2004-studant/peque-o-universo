@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pequeño Universo | Stickers de autor</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="announcement">
+        ✦ Diseños originales, hechos por personas · Envíos a todo México ✦
+    </div>
+<header>
+<nav class="nav">
+<a class="brand" href="#inicio">pequeño<span>universo</span> ✦</a>
+<div class="navlinks">
+<a href="#tienda">
+                Tienda
+            </a>
+<a href="#nosotros">Nuestra idea</a>
+<div class="menu">
+<button class="menu-trigger" id="menuTrigger">Explorar ▾</button>
+<div class="dropdown" id="dropdown">
+<a data-filter="todos" href="#tienda">Todos los stickers</a>
+<a data-filter="animales" href="#tienda">fan art</a>
+<a data-filter="fantasia" href="#tienda">Fantasía</a>
+<a data-filter="plantas" href="#tienda">Naturaleza</a>
+<button id="themeToggle">☾ Modo oscuro</button>
+</div>
+</div>
+</div>
+<button class="cart-button" id="openCart">Carrito 
+            <span class="count" id="cartCount">0</span>
+</button>
+</nav>
+</header>
+<main>
+<section class="hero" id="inicio">
+<div>
+<span class="eyebrow">✦ Arte independiente · Stickers únicos</span>
+<h1>Un poquito de arte para <em>llevar contigo.</em>
+</h1>
+<p>Descubre stickers diseñados por artistas humanos, hechos para decorar tu laptop, libreta, termo o cualquier rincón que necesite personalidad.</p>
+<a class="primary" href="#tienda">Explorar colección ↗</a>
+</div>
+<div class="hero-art">
+<div class="sun"></div>
+<div class="art-sticker cat">🐱</div>
+<div class="art-sticker star">✦</div>
+<div class="art-sticker moon">☾</div>
+<div class="art-label">Arte hecho con cariño ♡</div>
+</div>
+</section>
+<section id="tienda">
+<div class="section-head">
+<span class="eyebrow">La colección</span>
+<h2>Encuentra tu favorito.</h2>
+<p>Pequeños diseños, grandes personalidades.</p>
+</div>
+<div class="filters">
+<button class="filter active" data-category="todos">Todos</button>
+<button class="filter" data-category="animales">fanart</button>
+<button class="filter" data-category="fantasia">Fantasía</button>
+</div>
+<div class="products" id="products"></div>
+</section>
+<section class="about" id="nosotros">
+<div>
+<span class="eyebrow">Hecho por personas</span>
+<h2>El arte merece un lugar en lo cotidiano.</h2>
+<p>Pequeño Universo celebra la creatividad humana. Cada sticker representa una idea, una emoción o un mundo pequeño creado por artistas.</p>
+<p><strong>Apoya el arte independiente.</strong> Lleva contigo algo que tenga una historia detrás.</p>
+</div>
+<div class="about-art">
+        🌼 🪐 🐸
+    </div>
+</section>
+</main>
+<footer>
+<div class="footer-inner">
+<span>© 2026 Pequeño Universo · Tienda conceptual</span>
+<span>Diseñado con creatividad humana ✦</span>
+</div>
+</footer>
+<div class="overlay" id="overlay">
+</div>
+<aside class="cart-panel" id="cartPanel">
+<div class="cart-head"><h2>Tu carrito <span class="count" id="panelCount">0</span>
+</h2><button class="close" id="closeCart">×</button>
+</div>
+<div class="cart-items" id="cartItems">
+</div>
+<div class="cart-foot">
+<div class="total">
+<span>Total</span>
+<span id="cartTotal">$0.00 MXN</span>
+</div>
+<p>Esta es una demostración: no procesa pagos ni recopila información personal.</p>
+<button class="checkout" id="checkout">
+        Continuar con la compra
+    </button>
+</div>
+</aside>
+<div class="toast" id="toast">
+
+</div>
+    <script src="script.js">
+
+    </script>
+</body>
+</html>

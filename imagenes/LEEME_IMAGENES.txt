@@ -1,0 +1,22 @@
+IMÁGENES DE LOS STICKERS
+
+Copia tus imágenes en esta carpeta y ponles exactamente estos nombres:
+
+- gatito.png
+- luna.png
+- ranita.png
+- flor.png
+- planeta.png
+- osito.png
+- honguito.png
+- estrella.png
+
+También puedes usar JPG o WEBP, pero si cambias la extensión debes actualizar la ruta
+correspondiente en script.js, en la propiedad image de cada producto.
+
+Ejemplo:
+{ id: 1, name: "Gatito soñador", ..., image: "imagenes/gatito.png", ... }
+
+Mantén la carpeta "imagenes" en el mismo nivel que index.html, styles.css y script.js.
+Las imágenes locales reemplazan los emojis automáticamente. Si falta una imagen,
+se mostrará el emoji como respaldo.
